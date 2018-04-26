@@ -3,12 +3,30 @@
  * Copyright 2014-2017 Materialize
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
+
+ /* TEST BEGIN*/
+ .waves-effect .waves-red .waves-ripple{
+    /* The alpha value allows the text and background color
+    of the button to still show through. */
+     background-color: #ed1c24;
+}
+
+.ared-text{
+    color: #ed1c24 !important;
+}
+
+.waves-effect .waves-light .waves-red{
+    background-color: #ed1c24 !important;
+}
+
+/*TEST END*/
+
 .materialize-red {
   background-color: #e51c23 !important;
 }
 
 .materialize-red-text {
-  color: #e51c23 !important;
+  color: #bcbec0 !important;
 }
 
 .materialize-red.lighten-5 {
@@ -756,7 +774,7 @@
 }
 
 .light-blue {
-   background-color: #03a9f4 !important; 
+   background-color: #03a9f4 !important;
 }
 
 /* Custom Color Code Begin */
@@ -769,7 +787,7 @@
     background-color: #bcbec0 !important;
 }
 
-a.btn-large.red-btn {
+.btn-large.red-btn {
     color: #ed1c24 !important;
     background-color: red;
 }
